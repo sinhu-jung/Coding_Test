@@ -9,7 +9,7 @@ int main(int argc, char const *argv[]){
 	int b = 0, c = 0;
 	
 	
-	while(!(cin >> b >> c).eof()) {
+	while(cin >> b >> c) {
 		cout << b + c << "\n";
 	}
 
